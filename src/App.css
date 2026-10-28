@@ -1,0 +1,33 @@
+.vehicle-example {
+  margin: auto;
+  padding: 48px 24px;
+  text-align: left;
+}
+
+.vehicle-example h1 {
+  margin: 0 0 12px;
+  font-size: 40px;
+}
+
+.vehicle-example dl {
+  display: grid;
+  gap: 12px;
+  margin: 28px 0 0;
+}
+
+.vehicle-example dl div {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.vehicle-example dt {
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.vehicle-example dd {
+  margin: 0;
+}
